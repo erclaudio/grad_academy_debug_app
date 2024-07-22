@@ -10,7 +10,7 @@ module ApplicationHelper
   # - String containing the full title, combining the base title "QuizApp" with the provided page title.
   #
   def full_title(page_title = '')
-    base_title = 'QuizApp'
+    page_title = 'QuizApp'
     if page_title.empty?
       page_title
     else
